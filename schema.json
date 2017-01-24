@@ -1,0 +1,29 @@
+{
+	"fields": [
+		{
+			"name": "RefNo",
+			"title": "Reference Number",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "IncidentType",
+			"title": "Type Of Incident",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DateOfIncident ",
+			"title": "Date Of Incident ",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#dateTime",
+				"datePattern": "%Y-%m-%d"
+			}
+		}
+	]
+}
